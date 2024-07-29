@@ -51,7 +51,7 @@ nav{
 
     .main-banner{
         border: 1px solid;
-        width: 80%;
+        width: 100%;
         height: fit-content;
         height: 400px;
         background-image: url(https://dennisgroup.com/wp-content/uploads/2021/01/Spongebob-header_0032-1400x368.jpg);
@@ -84,7 +84,7 @@ nav{
     }
 
     select{
-        width: 80%;
+        width: 75%;
         height: 10%;
         padding: 10px;
         
@@ -123,12 +123,17 @@ input{
     margin-right: 12px;
 }
     button{
-        width: 75%;
+        width: 45%;
     }
 
 
+    /* KENAPA HARUS KAMI */
+
 .why{
-    border: 1px solid;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+    margin: 20px 0 20px 20px;
+    /* border: 1px solid; */
      /* margin-left: 24px; */
      /* margin-bottom: 30px; */
 }
@@ -150,12 +155,18 @@ input{
         border-radius: 50%;
     }
 
+
+
+    /* SEPARATOR */
 .separator{
     background-color: #efc651;
     text-align: center;
     padding: 50px;
 }
 
+
+
+/* MENU UTAMA BAWAH */
 .menu-utama{
     border: 1px solid;
 }
@@ -179,8 +190,6 @@ input{
     /* background-color: #27263b75; */
     padding: 15px 5px;
     border-radius: 10px
-    
-    
 }
 
 .main-item-bawah{
@@ -197,9 +206,35 @@ h3{
     width: 60%;
 }
 
+
+
+/* MENU CLOSING */
+.closing{
+    /* margin-left: 300px;
+    margin-right: 300px; */
+    padding-left: 100px;
+    margin-right: 100px;
+    /* width: 50%; */
+    text-align: center;
+}
+
+.header-closing{
+    text-align: center;
+    
+}
+
+.pesan-closing{
+    text-align: center;
+}
+
 .button-bawah{
-    width: 20%;
-    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 100px;
+}
+
+footer{
+    text-align: center;
 }
 
 
